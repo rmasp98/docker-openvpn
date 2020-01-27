@@ -2,6 +2,7 @@
 
 # Smallest base image
 FROM arm32v7/alpine
+COPY qemu-arm-static /usr/bin/
 
 LABEL maintainer="Ross Maspero <rossmaspero@gmail.com>"
 
